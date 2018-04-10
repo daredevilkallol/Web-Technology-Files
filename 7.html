@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+</head>
+<body bgcolor="yellow">
+	<h1><font color="red"><center>
+	Enter With Valid Details
+	</font></h1><br></center>
+	Username<input type="text" name="text">
+	<br><br>
+	Password<input type="Password" name="Password">
+	<br>
+	<hr>
+	<br>
+	<b>Are you Male?</b>
+	<br>
+	1.) Yes<input type="radio" name="radio_y">
+	<br>
+	2.) No<input type="radio" name="radio_n">
+	<br>
+	<hr>
+	<br>
+
+</body>
+</html>
+
+
+if(text.indexOf("@")<2)
+{
+	system.out.println("invalid email format");
+}
+else
+{
+	system.out.println("Theek hai");
+}
+
+
+
+while(text.valueOf(i)!='/0')
+{
+	if(text.valueOf(i)!=password.valueOf(i))
+	{
+		system.out.println("password mismatch");
+	}
+	else
+	{
+		system.out.println("Aaye launde");
+	}
+}

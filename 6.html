@@ -1,0 +1,43 @@
+<html>
+<head><title></title></head>
+<body>
+<br>
+Username<input id="un" type="text">
+<p id="wp"></p>
+<br><br>
+Password<input type="password" id="p"><br><br>
+Confirm Password<input type="password" id="cp"><br><br>
+
+<script>
+var un=document.getElementById("un");
+var p=document.getElementById("p");
+var cp=document.getElementById("cp");
+var wp=document.getElementById("wp");
+
+un.onblur=function()
+{
+	if(un.value.indexOf("@")<1)
+	{
+		wp.innerHTML="Bhag Bhosdike";
+
+	}
+
+	else
+	{
+		wp.innerHTML="Bach Gaya Maadhar";
+
+	}
+
+}
+
+
+
+
+</script>
+<hr>
+Are you virgin?<br><br>
+Yes<input type="checkbox"></input><br>
+No<input type="checkbox"></input>
+
+</body>
+</html>
